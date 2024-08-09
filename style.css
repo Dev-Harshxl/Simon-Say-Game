@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(229, 255, 127);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    font-weight: 900;
+    font-size: 70px;
+    margin: 30px;
+}
+.game{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.start{
+    position: absolute;
+    top: 850px;
+    right: 44%;
+    height: 130px;
+    width: 260px;
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reset{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    height: 130px;
+    width: 260px;
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.high{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    height: 100px;
+    width: 260px;
+    color: red;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 10px;
+}
+.highscore{
+    color: wheat;
+    font-size: 30px;
+  
+}
+.lscore{
+    color: wheat;
+    font-size: 30px;
+}
+.level{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    height: 100px;
+    width: 260px;
+    color: red;
+    font-size: 30px ;
+    font-weight: 800;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+.levelscore{
+    color: wheat;
+    font-size: 30px;
+}
+.flash{
+    opacity: 0.3;
+}
