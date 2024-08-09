@@ -2,6 +2,9 @@
 
 A simple brain-challenging game where you need to remember and repeat the blinking sequence of colors. The game tests your memory and attention as you progress through the levels.
 
+![Screenshot 2024-08-09 134744](https://github.com/user-attachments/assets/3f10d9d8-a508-4df8-9a4a-52392a253b12)
+
+
 ## Game Description
 
 The game consists of four color cards. Each level, one new random card blinks, and you must remember the entire sequence from the start. The challenge grows as the sequence gets longer with each new level.
